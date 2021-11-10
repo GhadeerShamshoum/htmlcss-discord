@@ -322,9 +322,13 @@ hr{
 }
 
 .wave-border{
-    width: 100wv;
+    width: 100vw;
+    opacity: 0.17;
+    
+}
+
+#special-wave{
     transform: scaleY(-1);
-    filter: invert(1);
 }
 
 
