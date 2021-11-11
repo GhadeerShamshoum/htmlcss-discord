@@ -147,6 +147,7 @@ background-color: black;
     width: 100%;
     height: 100vh;
     text-align: center;
+    position: relative;
 }
 
 .container{
@@ -254,9 +255,8 @@ footer::after{
     
 }
 #columns::after{
-    margin-bottom: 110px;
     content: '';
-    display:flow-root;
+    display:table;
     clear:both;
 
 }
@@ -266,7 +266,7 @@ footer::after{
 
 .col{
     width: 101px;
-    height: 200px;
+    
 }
 
 .col li{
@@ -297,7 +297,7 @@ i{
 } 
 
 hr{
-    margin: 60px 0;
+    margin: 20px 0;
 }
 
 #button-footer{
@@ -313,7 +313,7 @@ hr{
 
 #footer-bottom::after{
     content: '';
-    display: block;
+    display: table;
     clear: both;
 }
 
@@ -324,6 +324,7 @@ hr{
 .wave-border{
     width: 100vw;
     opacity: 0.17;
+    display: block;
     
 }
 
